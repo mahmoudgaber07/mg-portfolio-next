@@ -21,7 +21,7 @@ const Nav = ({darkMode,setDarkMode}) => {
     {/* <h1 className="text-xl dark:text-white cursor-pointer">MG</h1> */}
     <ul className="flex items-center">
       <li><BsFillMoonStarsFill className="cursor-pointer dark:text-white" onClick={()=>setDarkMode(!darkMode)}/></li>
-      <li><Link href="https://drive.google.com/file/d/1SwyJYi7XCXHH7OUcVLgL2sL5nUocOnUK/view" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8">Resume</Link></li>
+      <li><Link href="https://drive.google.com/file/d/1GidXiLXrezUqa0w1d0UctUfcHh0bonI9/view?usp=sharing" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8">Resume</Link></li>
     </ul>
   </nav>
   )
